@@ -20,7 +20,23 @@ body{
     height: 300px;
     border-radius: 56%
 }
-
+footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 2rem;
+    justify-content:space-around;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+/* whatsapp */
+.whatsapp img{
+     width: 50px;
+    height: 50px;
+    position: fixed;
+    margin:-76px 0px 0 78%;
+}
 
 @media(min-width:250px){
     .header{
