@@ -1,3 +1,8 @@
+@font-face{
+    font-family: wedding;
+    src: url('./resources/font/ElegantWedding.otf');
+}
+
 body{
     padding: 0;
     margin: 0%;
@@ -31,11 +36,8 @@ footer img{
     height: 40px;
 }
 /* whatsapp */
-.whatsapp img{
-     width: 50px;
-    height: 50px;
-    position: fixed;
-    margin:-76px 0px 0 78%;
+.whatsapp{
+    display: flex;
 }
 
 @media(min-width:250px){
@@ -45,6 +47,7 @@ footer img{
     }
     .header h1{
         font-size: 300%;
+        font-family: wedding;
     }
     .videoPresentation video{
         max-width: 100%;
@@ -65,4 +68,10 @@ footer img{
         height: 100px;
         border-radius: 56%;
     }
+    .whatsapp img{
+        width: 50px;
+       height: 50px;
+       position: fixed;
+       margin:-76px 0px 0 78%;
+   }
 }
